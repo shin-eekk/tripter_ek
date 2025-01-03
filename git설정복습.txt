@@ -1,0 +1,26 @@
+*git은 되돌리기, 수정, 취소가 안됨. 지우고 다시 실행
+
+<git 최초 실행 기본 설정>
+git init
+>> .git 파일이 생성
+>> . 은 불러오기
+
+git config user.name 깃허브아이디
+git config user.email 깃허브가입한 이메일
+
+git branch -M main  메인브런치 설정
+>>마스터에서  main으로 변경
+
+git branch coworker / subworker
+
+git remote add origin  깃허브 저장소 
+git에        등록 
+===========================
+<파일 업로드>
+git add index.html img/logo.svg(특정파일명) 
+git commit -m "[메이저, 마이너, 패치] 작업메세지" (파일버전관리 필수)
+
+git push origin main
+
+<내려받기>
+git pull origin main   오리진에 있는 파일 받기
