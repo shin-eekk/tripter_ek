@@ -1,0 +1,17 @@
+<최초 1회 진행>
+git init
+git config user.name 아이디
+git config user.email 이메일
+git branch -M main
+git remote add origin 자신의깃허브 주소
+
+<반복 진행>
+git add .   //모든자료를 묶어라
+git commit -m  "작업내역이름작성"
+
+<서버 업로드>
+git push origin main
+git push origin subworker(메인 외 다른 서버)
+
+=============================
+https://github.com/shin-eekk/tripter_ek.git
